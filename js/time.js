@@ -23,9 +23,6 @@ const colors = [
 window.onload = function() {
   WINDOW_WIDTH = document.body.clientWidth;
   WINDOW_HEIGHT =document.body.clientHeight;
-  if(document.body.clientWidth < 450){
-    WINDOW_HEIGHT  = 450;
-  }
   MARGIN_TOP = Math.round(WINDOW_HEIGHT/5);
   MARGIN_LEFT = Math.round(WINDOW_WIDTH/10);
   RADIUS = Math.round(WINDOW_WIDTH*4/5/108)-1;
